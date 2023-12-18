@@ -1,0 +1,122 @@
+/*background*/
+#bg
+{
+    height: 100vh;
+    width: 100vw;
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+}
+
+#bg-card
+{
+    background: rgb(39,46,52);
+    background: radial-gradient(circle, rgba(39,46,52,1) 0%, rgba(33,41,51,1) 46%, rgba(39,46,52,1) 100%);
+    font-family: 'Overpass', sans-serif;
+    border-radius: 30px;
+    width: 24%;
+    padding: 40px 27px 40px 27px;
+}
+
+
+/*media query de bg-card*/
+
+@media (max-width: 1000px)
+{
+    #bg-card
+    {
+        width: 60%;
+    }
+}
+
+h1
+{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    font-weight:700;
+    margin: 25px 0px 10px 0px;
+}
+
+p
+{ 
+    color: hsl(217, 12%, 63%);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+#icon-grade
+{
+    color: hsl(25, 97%, 53%);
+    background: hsla(217, 12%, 63%, 0.185);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.grade-rating-color
+{
+    color: hsl(217, 12%, 63%);
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+li
+{
+    background: hsla(217, 12%, 63%, 0.185);
+    padding: 12px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+li:nth-child(1)
+{
+    margin-left: 0px;
+}
+/*cambiar el color al boton button-submit por un azul*/
+
+#button-submit
+{
+    background: hsl(25, 97%, 53%);
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-radius: 100px;
+    padding: 15px 30px 15px 30px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+/*hover */
+
+#button-submit:hover
+{
+    background: hsl(25, 87%, 42%);
+    font-weight: 700;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.411);
+}
+
+/*clase hover para las estrellas*/
+.checked
+{
+    background: hsla(217, 100%, 94%, 0.185);
+}
+
+/* content 2 */
+
+.content-2
+{
+    margin: -20px 0px 0px 0px;
+    transform: translateX(-10px);
+    display: none;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating Animation</title>
+    
+    <!--md bootstrap-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"rel="stylesheet"/>
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+    <!--Css-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="bg">
+        <div id="bg-card" class="container animacion__inicial">
+            <div class="content-1">
+                <i id="icon-grade" class="fa-solid fa-star"></i>
+                <h1 class="">How did we do?</h1>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam expedita ab autem assumenda, cupiditate.</p>
+                <ul class="">
+                    <li class="bg-star-rating"><i class="fa-regular fa-star grade-rating-color" id="star-1"></i></li>
+                    <li class="bg-star-rating"><i class="fa-regular fa-star grade-rating-color" id="star-2"></i></li>
+                    <li class="bg-star-rating"><i class="fa-regular fa-star grade-rating-color" id="star-3"></i></li>
+                    <li class="bg-star-rating"><i class="fa-regular fa-star grade-rating-color" id="star-4"></i></li>
+                    <li class="bg-star-rating"><i class="fa-regular fa-star grade-rating-color" id="star-5"></i></li>
+                </ul>
+                <button id="button-submit" class="btn" type="button">SUBMIT</button>
+            </div>
+            <div class="content-2">
+                <h1 class="">Thank you!</h1> 
+                <span class="rating"></span>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam expedita ab autem assumenda, cupiditate.</p>
+                <button id="button-again" class="btn btn-success" type="button">AGAIN</button>
+            </div>
+        </div>
+    </div>
+    <!--JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="index.js"></script>    
+</body>
+</html>
